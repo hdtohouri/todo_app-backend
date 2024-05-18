@@ -35,7 +35,7 @@ app.post('/register', async (req, res) => {
         photo
       }
     });
-    console.log('Utilisateur enregistré avec succès:', user);
+    //console.log('Utilisateur enregistré avec succès:', user);
     res.status(200).send('Utilisateur enregistré avec succès');
   } catch (error) {
     console.error('Erreur lors de l\'enregistrement de l\'utilisateur:', error);
